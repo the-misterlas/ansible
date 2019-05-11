@@ -4,7 +4,7 @@ Makes /etc/MOTD pretty!
 
 
 Usage:
-> ansible -i <inventory_file> motd_make_pretty.yml -e "host_group=<server_name|inventory_group>"
+> ansible -i <inventory_file> motd_make_pretty.yml -e "hostgroup=<server_name|inventory_group>"
 
 
 Utilizes http://artii.herokuapp.com/ site.
