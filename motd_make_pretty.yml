@@ -1,0 +1,5 @@
+---
+- name: Create pretty MOTD message
+  hosts: "{{ hostgroup }}"
+  roles:
+    - motd_make_pretty
